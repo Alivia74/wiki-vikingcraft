@@ -10,19 +10,21 @@ Voici la liste complète des commandes disponibles sur le serveur VikingCraft. C
 
 ## Commandes Générales 🛠️
 - **/regles** : Ouvre le lien vers le règlement.
+- **/guide** : Ouvre le lien vers le guide.
+- **/liens** : Affiche les liens vers nos sites.
+- **/discord** : Ouvre le lien vers le discord.
 - **/menu** : Ouvre le menu principal du serveur.
 - **/boutique** : Ouvre le menu boutique du serveur.
 - **/buy** : Ouvre le menu achat de points.
 - **/skill** : Ouvre le menu compétences et salaires.
 - **/skill top** : Ouvre le menu des classements des compétences.
-- **/liens** : Affiche les liens vers nos sites.
-- **/niveau** : Permet de voir vos statistiques.
+- **/stats** : Permet de voir vos statistiques liées aux skills.
+- **/niveau** : Permet de voir vos statistiques liées aux temps de jeu et xp serveur.
+- **/profil** : Ouvre le menu profil et options.
 - **/ec** : Ouvre votre enderchest.
 - **/quete** : Ouvre le menu des quêtes.
-- **/profil** : Ouvre le menu profil et options.
 - **/kit** : Ouvre le menu des kits.
 - **/seen \<pseudo\>** : Permet de voir la dernière connexion d’un joueur.
-- **/stats** : Permet de voir vos statistiques.
 - **/time \<pseudo\>** : Permet de voir le temps de jeu et la première connexion d'un joueur.
 - **/rtp** : Ouvre le menu de téléportation aléatoire.
 
@@ -31,17 +33,22 @@ Voici la liste complète des commandes disponibles sur le serveur VikingCraft. C
 ## Commandes Économie 💰
 - **/baltop** : Top des joueurs les plus riches.
 - **/pay &lt;pseudo&gt;** : Envoyer de l'argent à un joueur.
-- **/money &lt;pseudo&gt;** : Permet de voir l'argent d'un joueur.
+- **/money &lt;pseudo&gt;** ou **/bal &lt;pseudo&gt;** : Permet de voir l'argent d'un joueur.
 - **/salaire** : Ouvre la liste des salaires.
+- **/armurier**, etc : Ouvre le menu salaire du métier.
 - **/trade &lt;pseudo&gt;** : Permet de faire un échange sécurisé.
-- **/shop &lt;vendre/acheter&gt; &lt;item&gt;** : Chercher un shop par item.
+- **/shop finditem &lt;vendre/acheter&gt; &lt;item&gt;** : Chercher un shop par item.
 - **/ah** : Ouvrir l'hôtel des ventes.
 - **/ah sell &lt;prix&gt; &lt;nombre&gt;** : Vendre des items.
 - **/ah search &lt;joueur&gt;** : Voir les ventes d'un joueur.
-
+- **/or** : Ouvre le menu de l'or nordique.
 ---
 
 ## Commandes Téléportation 🌍
+- **/tpa &lt;pseudo&gt;** : Téléporte vers un joueur avec son accord.
+- **/tpahere &lt;pseudo&gt;** : Téléporte un joueur à vous avec son accord.
+- **/tpyes** : Permet d'accepter une demande de téléportation.
+- **/tpno** : Permet de refuser une demande de téléportation.
 - **/back** : Vous téléporte à votre dernière position.
 - **/dback** : Vous téléporte à votre dernière position de mort.
 - **/home &lt;nom&gt;** : Permet de voir vos homes et vous téléporter.
@@ -50,12 +57,9 @@ Voici la liste complète des commandes disponibles sur le serveur VikingCraft. C
 - **/warp** : Ouvre le menu des warps.
 - **/setwarp** : Permet de créer votre warp.
 - **/delwarp** : Permet de supprimer votre warp.
+- **/warp &lt;pseudo&gt;** : Permet de voir les warps d'un joueur.
 - **/pvp** : Vous téléporte vers l'arène PvP.
 - **/ender** : Vous téléporte vers le monde End.
-- **/tpa &lt;pseudo&gt;** : Téléporte vers un joueur avec son accord.
-- **/tpahere &lt;pseudo&gt;** : Téléporte un joueur à vous avec son accord.
-- **/tpyes** : Permet d'accepter une demande de téléportation.
-- **/tpno** : Permet de refuser une demande de téléportation.
 - **/creatif** : Vous téléporte vers le serveur créatif.
 - **/jeux** : Vous téléporte vers le serveur jeux.
 - **/hub** : Retour au hub.
@@ -73,6 +77,7 @@ Voici la liste complète des commandes disponibles sur le serveur VikingCraft. C
 - **#pos** : Affiche ta position.
 - **#bal** : Affiche ton argent.
 - **#skill** : Affiche tes compétences.
+- **#equipage** : Affiche ton nom d'équipage
 
 ---
 
@@ -96,28 +101,31 @@ Voici la liste complète des commandes disponibles sur le serveur VikingCraft. C
 
 ---
 
-## Commandes Guildes (Grade Panda requis) 🐼
-- **/g create** : Créer une guilde.
-- **/g delete** : Supprime votre guilde.
-- **/g prefix &lt;nom&gt;** : Change le préfix de guilde.
-- **/g sethome** : Définit le home de la guilde.
-- **/g delhome** : Supprime le home de guilde.
-- **/g home** : Téléporte au home de la guilde.
-- **/g invite &lt;joueur&gt;** : Invite un joueur dans votre guilde.
-- **/g accept &lt;joueur&gt;** : Accepte une invitation de guilde.
-- **/g leave** : Quitte votre guilde actuelle.
-- **/g info** : Affiche les informations de guilde.
-- **/g boot &lt;joueur&gt;** : Kick un joueur de la guilde.
-- **/g list** : Affiche la liste des guildes.
-- **/g members** : Ouvre le menu des membres de la guilde.
-- **/g promote** : Promouvoir un membre de la guilde.
-- **/g status** : Change la guilde en public ou privé.
-- **/g gc** : Active le chat de guilde.
-- **/g ac** : Active le chat d'alliance de guilde.
-- **/g vault** : Ouvre le coffre de guilde.
-- **/g buff** : Ouvre le menu buff.
-- **/g bank balance** : Affiche l'argent dans la banque de guilde.
-- **/g bank withdraw &lt;nombre&gt;** : Retirer de l'argent de la banque de guilde.
-- **/g bank deposit &lt;nombre&gt;** : Déposer de l'argent dans la banque de guilde.
-- **/g upgrade** : Améliore ta guilde.
+## Commandes équipage ⚔️
+
+- **/e** : Ouvre le menu équipage.
+- **/e help** : Affiche les commandes liées à l'équipage.
+- **/e create** : Créer une équipage.
+- **/e delete** : Supprime votre équipage.
+- **/e prefix &lt;nom&gt;** : Change le préfix de équipage.
+- **/e sethome** : Définit le home de la équipage.
+- **/e delhome** : Supprime le home de équipage.
+- **/e home** : Téléporte au home de la équipage.
+- **/e invite &lt;joueur&gt;** : Invite un joueur dans votre équipage.
+- **/e accept &lt;joueur&gt;** : Accepte une invitation de équipage.
+- **/e leave** : Quitte votre équipage actuelle.
+- **/e info** : Affiche les informations de équipage.
+- **/e boot &lt;joueur&gt;** : Kick un joueur de la équipage.
+- **/e list** : Affiche la liste des équipages.
+- **/e members** : Ouvre le menu des membres de la équipage.
+- **/e promote** : Promouvoir un membre de la équipage.
+- **/e status** : Change la équipage en public ou privé.
+- **/e gc** : Active le chat de équipage.
+- **/e ac** : Active le chat d'alliance de équipage.
+- **/e vault** : Ouvre le coffre de équipage.
+- **/e buff** : Ouvre le menu buff.
+- **/e bank balance** : Affiche l'argent dans la banque de équipage.
+- **/e bank withdraw &lt;nombre&gt;** : Retirer de l'argent de la banque de équipage.
+- **/e bank deposit &lt;nombre&gt;** : Déposer de l'argent dans la banque de équipage.
+- **/e upgrade** : Améliore ta équipage.
 
