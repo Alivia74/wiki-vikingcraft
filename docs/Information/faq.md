@@ -44,9 +44,21 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 
 ---
 
+## 🏡 Homes pour naufragé
+- **Nombre de homes** : 5 par défaut. Jusqu'à 50 avec un grade.
+
+---
+
 ## 🏠 Claims
 - **Hauteur du claim** : De -64 à 320 (couvre toute la coordonnée Y).
 - **Disparition d'un claim** : Possible après 2 mois d'inactivité du chef et des admins.
+
+---
+
+## 🧱 Blocs claimables
+:::tip 🔒
+- **Limite par défaut** : 250 000, possibilité d'augmenter jusqu'à 1 million avec un grade.
+  :::
 
 ---
 
@@ -55,20 +67,16 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 
 ---
 
-## 🏡 Homes pour citoyens
-- **Nombre de homes** : 5 par défaut, possibilité d'en obtenir plus avec un grade.
-
----
-
 ## 🚫 Double comptes
 :::tip ⚠️
-- **Autorisation** : Non, sauf pour les membres d'une même famille jouant sur la même IP. Preuve via ticket.
+- **Autorisation** : Le serveur tolère jusqu'à 3 comptes. Ces derniers peuvent servir à avoir plus de claim ou plus de shops. Cependant, ils ne doivent pas être connectés simultanément, ni servir à avoir des avantages quelconques (items, argent, event,...). Les membres d'une même famille jouant sur la même IP doivent nous signaler leur présence via ticket.
   :::
 
 ---
 
 ## ⛏️ Monde minage
 - **Disponible** : Via la commande `/rtp`.
+- Réinitialisation toutes les semaines
 
 ---
 
@@ -104,6 +112,7 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 
 ## 💸 Donner de l'argent en jeu
 - **Commande** : `/pay <pseudo>`.
+- **pour donner des perles** : `/buy <pseudo>`
 
 ---
 
@@ -120,7 +129,7 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 
 ## 🧱 Blocs claimables
 :::tip 🔒
-- **Limite par défaut** : Très élevée, possibilité d'augmenter jusqu'à 1,5 million avec un pack ville.
+- **Limite par défaut** : 250 000, possibilité d'augmenter jusqu'à 1 million avec un grade.
   :::
 
 ---
@@ -131,7 +140,7 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 ---
 
 ## 🛡️ Grief
-- **Définition** : Construction ou claim à moins de 100 blocs d'un autre joueur sans permission.
+- **Définition** : Construction, destruction ou claim à moins de 100 blocs d'un autre joueur sans permission.
 
 ---
 
@@ -140,7 +149,7 @@ Dans cette catégorie, retrouvez une grande partie des questions qui nous sont p
 
 ---
 
-## ⏰ Heure des redémarrages
+## ⏰ Heure de redémarrage
 - **Horaire** : Tous les jours à 6 heures (heure de Paris).
 
 ---
